@@ -1,0 +1,10 @@
+https://javascript.info/clickjacking
+
+sandbox="allow-scripts allow-forms"
+
+
+<script>
+if (top != window) {
+  top.location = window.location;
+}
+</script>
