@@ -23,7 +23,10 @@
   <div>Click to get rich now:</div>
 
   <!-- The url from the victim site -->
-  <iframe sandbox="allow-scripts allow-forms" src="facebook.html"></iframe>
+  <!-- putting the following as a property of iframe can prevent the attack:
+       sandbox="allow-scripts allow-forms"  
+    -->
+  <iframe src="facebook.html"></iframe>
 
   <button>Click here!</button>
 
