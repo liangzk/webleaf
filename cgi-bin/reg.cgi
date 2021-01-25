@@ -11,7 +11,7 @@ END
 $regfile = 'registrations.tsv';
 
 $name = param('name');
-HTML::Entities::encode($name); 
+#HTML::Entities::encode($name); 
 $email = param('email');
 $food = param('food');
 
