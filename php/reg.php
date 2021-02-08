@@ -9,7 +9,7 @@
 has been recorded as follows:</p>
 <?php
   $name = $_POST['name'];
-  //$name = htmlspecialchars($name);
+  $name = htmlspecialchars($name);
   echo '<p>Name: '.$name.'</p>';
   $email = $_POST['email'];
   echo '<p>E-mail: '.$email.'</p>'; 

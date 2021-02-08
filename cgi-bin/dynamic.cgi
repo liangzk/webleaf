@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Content-type: text/html"
+echo "Set-Cookie: mycookie=great"
 echo
 echo "<html>"
 echo "<head><title>Hello</title></head>"
